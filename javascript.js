@@ -23,3 +23,24 @@ console.log(A);
 // confirm
 let deletepost = confirm("Do you really want to delete this post?");
 console.log(deletepost);
+
+//loops
+let i =0;
+for(i=0; i<3; i++){
+    console.log(i);
+}
+
+// loops
+let friends =["sanjana", "jhambia", "payal", "pooja"];
+friends.forEach(function f(element){
+    console.log("hello Friends," + element + " to javascript");
+})
+
+// while loops in js
+let j=0;
+while(j<4){
+    console.log(` ${j} is less than 4`);
+    j++;
+}
+// var caseQty = 144;
+//  alert(caseQty);
